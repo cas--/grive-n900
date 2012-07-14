@@ -1,0 +1,43 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/grive.dir/src/drive/Feed.cc.o"
+  "CMakeFiles/grive.dir/src/drive/Entry.cc.o"
+  "CMakeFiles/grive.dir/src/drive/State.cc.o"
+  "CMakeFiles/grive.dir/src/drive/CommonUri.cc.o"
+  "CMakeFiles/grive.dir/src/drive/Resource.cc.o"
+  "CMakeFiles/grive.dir/src/drive/ResourceTree.cc.o"
+  "CMakeFiles/grive.dir/src/drive/Drive.cc.o"
+  "CMakeFiles/grive.dir/src/http/StringResponse.cc.o"
+  "CMakeFiles/grive.dir/src/http/CurlAgent.cc.o"
+  "CMakeFiles/grive.dir/src/http/Download.cc.o"
+  "CMakeFiles/grive.dir/src/http/ResponseLog.cc.o"
+  "CMakeFiles/grive.dir/src/http/XmlResponse.cc.o"
+  "CMakeFiles/grive.dir/src/http/Header.cc.o"
+  "CMakeFiles/grive.dir/src/protocol/Json.cc.o"
+  "CMakeFiles/grive.dir/src/protocol/JsonResponse.cc.o"
+  "CMakeFiles/grive.dir/src/protocol/OAuth2.cc.o"
+  "CMakeFiles/grive.dir/src/util/SignalHandler.cc.o"
+  "CMakeFiles/grive.dir/src/util/Crypt.cc.o"
+  "CMakeFiles/grive.dir/src/util/Exception.cc.o"
+  "CMakeFiles/grive.dir/src/util/OS.cc.o"
+  "CMakeFiles/grive.dir/src/util/StdioFile.cc.o"
+  "CMakeFiles/grive.dir/src/util/DateTime.cc.o"
+  "CMakeFiles/grive.dir/src/util/log/Log.cc.o"
+  "CMakeFiles/grive.dir/src/util/log/DefaultLog.cc.o"
+  "CMakeFiles/grive.dir/src/util/log/CommonLog.cc.o"
+  "CMakeFiles/grive.dir/src/util/log/CompositeLog.cc.o"
+  "CMakeFiles/grive.dir/src/xml/String.cc.o"
+  "CMakeFiles/grive.dir/src/xml/NodeSet.cc.o"
+  "CMakeFiles/grive.dir/src/xml/Node.cc.o"
+  "CMakeFiles/grive.dir/src/xml/TreeBuilder.cc.o"
+  "CMakeFiles/grive.dir/src/bfd/SymbolInfo.cc.o"
+  "CMakeFiles/grive.dir/src/bfd/Backtrace.cc.o"
+  "CMakeFiles/grive.dir/src/bfd/Debug.cc.o"
+  "libgrive.pdb"
+  "libgrive.a"
+  "libgrive.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/grive.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
