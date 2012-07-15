@@ -42,8 +42,8 @@
 #include <iostream>
 #include <unistd.h>
 
-const std::string client_id		= "22314510474.apps.googleusercontent.com" ;
-const std::string client_secret	= "bl4ufi89h-9MkFlypcI7R785" ;
+const std::string client_id		= "321450777333.apps.googleusercontent.com" ;
+const std::string client_secret	= "aL4LwNP1NNy3P0T3ZIB3gA1U" ;
 
 using namespace gr ;
 

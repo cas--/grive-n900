@@ -142,19 +142,19 @@ int Main( int argc, char **argv )
 	}
 	if ( vm.count( "verbose" ) )
 	{
-		console_log->Enable( log::verbose ) ;
+		//console_log->Enable( log::verbose ) ;
 	}
 	if ( vm.count( "debug" ) )
 	{
-		console_log->Enable( log::verbose ) ;
-		console_log->Enable( log::debug ) ;
+		//console_log->Enable( log::verbose ) ;
+		//console_log->Enable( log::debug ) ;
 	}
 	if ( vm.count( "force" ) )
 	{
 		options.Add( "force", Json(true) ) ;
 	}
 	
-	LogBase::Inst( std::auto_ptr<LogBase>(comp_log.release()) ) ;
+	//LogBase::Inst( std::auto_ptr<LogBase>(comp_log.release()) ) ;
 	
 	std::string refresh_token ;
 	try
@@ -163,10 +163,10 @@ int Main( int argc, char **argv )
 	}
 	catch ( Exception& e )
 	{
-		Log(
+		/*Log(
 			"Please run grive with the \"-a\" option if this is the "
 			"first time you're accessing your Google Drive!",
-			log::critical ) ;
+			log::critical ) ;*/
 		
 		return -1;
 	}
@@ -184,7 +184,7 @@ int Main( int argc, char **argv )
 		drive.DryRun() ;
 	
 	config.Save() ;
-	Log( "Finished!", log::info ) ;
+	//Log( "Finished!", log::info ) ;
 	return 0 ;
 }
 
